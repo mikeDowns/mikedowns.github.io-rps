@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock paper scissors game</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="rps.css">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Asap:400,500,700" rel="stylesheet">
+</head>
+<body>
+<header>
+	<h1>Rock Paper Scissors</h1>
+
+</header>
+
+<div class="score-board">
+	<div id= "user-label"class= "badge">User</div>
+	<div id= "computer-label"class= "badge">Comp</div>
+	<span id="user-score">0</span>:<span id="computer-score">0</span>
+</div>
+
+<div class="result">
+	<p>Paper covers rock, you win!</p>
+</div>
+
+<div class="choices">
+	<div class= "choice" id="r">
+		<i class="far fa-hand-rock"></i>
+	</div>
+	
+	<div class= "choice" id="p">
+		<i class="far fa-hand-paper"></i>
+	</div>
+
+<div class= "choice" id="s">
+		<i class="far fa-hand-scissors"></i>
+	</div>
+
+</div>
+<p id="action-message">Make your move.</p>
+<script type="text/javascript" src="rps.js"></script>
+</body>
+</html>
